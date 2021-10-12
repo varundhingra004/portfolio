@@ -4,10 +4,11 @@ var filesToCache = [
     '/index.html',
     '/mdev.html',
     '/compvis.html',
-    'css/style.css',
+    'style.css',
     'images/copyright.png',
     'images/fb_profile.jpeg',
-    'images/logo.png'
+    'images/logo.png',
+    'images/linked_icon.png'
 ]
 
 self.addEventListener('install', function(e){
