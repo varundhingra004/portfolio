@@ -1,0 +1,9 @@
+{
+    "name": "Varun Dhingra Portfolio",
+    "short_name": "portfolio",
+    "lang" : "en-us",
+    "start_url" : "/index.html",
+    "display" : "standalone",
+    "background_color" : "white",
+    "theme_color" : "white"
+}
