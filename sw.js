@@ -15,7 +15,7 @@ self.addEventListener('install', function(e){
         caches.open(cacheName).then(function(cache){
         return cache.addAll(filesToCache);
         })
-    );
+    )
 });
 
 self.addEventListener('fetch', function(e){
@@ -23,5 +23,5 @@ self.addEventListener('fetch', function(e){
         caches.match(e.request).then(function(response){
         return response || fetch(e.request);
         })
-    );
+    )
 });
