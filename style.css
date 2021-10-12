@@ -42,9 +42,29 @@
 }
 
 footer{
+    text-align: center;
     background-color: black;
+    position:absolute; 
+    bottom:0;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .footer_text{
     color: white;
 }
+
+.nav .active{
+    background-color: whitesmoke;
+}
+
+/* @media screen and (max-width : 100px) {
+    .resp{
+        background-color: black;
+        position:absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+ } */
