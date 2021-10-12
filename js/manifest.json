@@ -1,6 +1,14 @@
 {
     "name": "Varun Dhingra Portfolio",
     "short_name": "portfolio",
+    "icons" : 
+    [
+        {
+            "src":"images/logo.png",
+            "sizes":"128x128",
+            "type":"image/png"
+            }
+],
     "lang" : "en-us",
     "start_url" : "/index.html",
     "display" : "standalone",
