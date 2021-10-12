@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+}
+
+.navigation{
+    box-shadow: 0 5px 10px #efefef;
+    background: black;
+}
+
+.logo{
+    height: 60px;
+    padding: 0.05px 0.05px;
+}
+
+.icon-bar{
+    background: darkorange;
+}
+
+.large_text{
+    font-size: 40px;
+    margin: 20px 0;
+    color: orangered;
+}
+
+.description{
+    font-size: 20px;
+    margin: 20px 0;
+    color: black;
+}
+
+.copy{
+    display: inline;
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer_text{
+    color: white;
+}
