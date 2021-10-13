@@ -7,10 +7,10 @@
             "src":"images/logo.png",
             "sizes":"128x128",
             "type":"image/png"
-            }
-],
+        }
+    ],
     "lang" : "en-us",
-    "start_url" : "index.html",
+    "start_url" : "/index.html",
     "display" : "standalone",
     "background_color" : "white",
     "theme_color" : "white"
