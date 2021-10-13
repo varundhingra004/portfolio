@@ -8,8 +8,7 @@ var filesToCache = [
     'images/copyright.png',
     'images/fb_profile.jpeg',
     'images/logo.png',
-    'images/linked_icon.png',
-    '/sw.js'
+    'images/linked_icon.png'
 ]
 
 self.addEventListener('install', function(e){
