@@ -10,7 +10,7 @@ var filesToCache = [
     'images/logo.png',
     'images/linked_icon.png',
     'js/main.js',
-    'sw.js'
+    '/sw.js'
 ]
 
 self.addEventListener('install', function(e){
