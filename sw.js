@@ -21,10 +21,18 @@ self.addEventListener('install', function(e){
     )
 });
 
+// self.addEventListener('fetch', function(e){
+//     e.respondWith(
+//         caches.match(e.request).then(function(response){
+//         return response || fetch(e.request);
+//         })
+//     )
+// });
+
 self.addEventListener('fetch', function(e){
-    e.respondWith(
-        caches.match(e.request).then(function(response){
-        return response || fetch(e.request);
+    e.respondwith(
+        caches.match(cacheName).then(function(cache){
+            return cache.addAll(filesToCache);
         })
     )
 });
